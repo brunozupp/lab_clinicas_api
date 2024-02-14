@@ -1,0 +1,6 @@
+users -> os usuários de atendimento.
+adm_users -> os usuários que são colocados em paineis, por exemplo, no tablet ou no painel (numa TV, por exemplo). Não é bem um usuário, mas sim um Terminal. Pode entender que cada terminal tem seu próprio login.
+attendantDeskAssignment -> todo usuário, quando loga na aplicação, ele registra nessa tabela qual o guichê que ele está responsável.
+patients -> tabela que armazena todos os pacientes. Então se um dia eu já fui atendido na clinica, vai ter meus dados cadastrados.
+patientInformationForm -> tabela que armazena o formulário de atendimento daquele momento. É um formulário com as informações para o paciente ser atendido, como, por exemplo, as fotos dos exames e carteirinha.
+painelCheckin -> é onde vai alimentar 100% do aplicativo do Painel (Web). Toda vez que um atendente chama um paciente para ser atendido, é inserido um dado nessa tabela.
